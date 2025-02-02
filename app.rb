@@ -2,8 +2,15 @@ require "sinatra"
 require "sinatra/reloader"
 
 get("/") do
-  "
-  <h1>Welcome to your Sinatra App!</h1>
-  <p>Define some routes in app.rb</p>
-  "
+ erb(:home)
+end
+
+get("/targeted_workouts") do
+"hello"
+erb(:targeted)
+end
+
+get("/random_workouts") do
+
+erb(:random)
 end
