@@ -6,6 +6,7 @@ require "json"
 get("/") do
   erb(:index)
 end
+#testing
 
 get("/random_workouts") do
   categories = [
