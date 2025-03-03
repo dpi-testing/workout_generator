@@ -14,6 +14,9 @@ gem "sinatra-activerecord"
 
 gem "http"
 gem "dotenv"
+gem "net-http"
+gem "uri"
+gem "json"
 
 group :development do
   gem "better_errors"
